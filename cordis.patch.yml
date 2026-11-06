@@ -1,0 +1,7 @@
+- id: worktrace-mcp
+  disabled: true
+- insert:
+    - id: worktrace-workbench
+      name: dsh-worktrace
+      config:
+        file: !!js dshHomePath('integrations', 'worktrace', 'Worktrace.json')

@@ -1,0 +1,68 @@
+{
+  "name": "dsh-worktrace",
+  "version": "0.3.0",
+  "description": "Worktrace 本机求职工作台：原版画布、本地 AI 与原生编译核心",
+  "type": "module",
+  "main": "lib/host.js",
+  "exports": {
+    ".": "./lib/host.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale",
+    "skills",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-api-session-controller"
+      ]
+    }
+  },
+  "author": "isdou",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/isdou/dsh-worktrace#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isdou/dsh-worktrace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isdou/dsh-worktrace/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "career",
+    "resume",
+    "evidence",
+    "local-first"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": "0.2.2-rc.1"
+  },
+  "icon": "./icon.svg",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ]
+}

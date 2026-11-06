@@ -1,0 +1,10 @@
+Worktrace / dsh-worktrace
+Copyright (c) 2026 isdou. All rights reserved.
+
+The original Worktrace code and artwork are proprietary (SPDX: UNLICENSED).
+This repository distributes the Worktrace plugin for installation and use in
+DeepSeek Harness. No general open-source license is granted for the original
+Worktrace code or artwork.
+
+Bundled third-party components retain their respective licenses. See
+THIRD_PARTY_NOTICES.md and lib/*.LEGAL.txt for attribution and license terms.
