@@ -40,8 +40,8 @@
         "zh": "Worktrace · 职业证据工作台"
       },
       "description": {
-        "zh": "macOS 14+ Apple 芯片：原版画布、本机 AI、编译核心与 Word/PDF 导出。资料不交给聊天模型。",
-        "en": "macOS 14+ Apple Silicon: original canvas, local AI, compiled native core, Word/PDF export. No workspace tools exposed to chat models."
+        "zh": "macOS 14+ Apple 芯片：PDF 本机取文、扫描页本机识别、一次本地整理、原版画布与原生导出。",
+        "en": "macOS 14+ Apple Silicon: direct local PDF extraction, on-device scan OCR, one local model pass, original canvas and native exports."
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNDAgNDAiIGZpbGw9Im5vbmUiPjxyZWN0IHg9Ii43NSIgeT0iLjc1IiB3aWR0aD0iMzguNSIgaGVpZ2h0PSIzOC41IiByeD0iMTEuNSIgZmlsbD0iIzE3MTcxNyIgc3Ryb2tlPSIjNDQ0IiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik05LjI1IDExLjUgMTQuMSAyOC44IDIwIDE2LjlsNS45IDExLjkgNC44NS0xNy4zIiBzdHJva2U9IiNmYWZhZmEiIHN0cm9rZS13aWR0aD0iMi41NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PGNpcmNsZSBjeD0iOS4yNSIgY3k9IjExLjUiIHI9IjIuMTUiIGZpbGw9IiNmYWZhZmEiLz48Y2lyY2xlIGN4PSIzMC43NSIgY3k9IjExLjUiIHI9IjIuMTUiIGZpbGw9IiNmYWZhZmEiLz48L3N2Zz4K",
       "author": "isdou",
@@ -66,6 +66,18 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1793975280,
+          "engines": {
+            "dsh": "0.2.2-rc.1"
+          },
+          "source": {
+            "type": "git",
+            "url": "https://github.com/isdou/dsh-worktrace",
+            "commit": "993f1673a98140cfcb1cc7ee83c5baad3aca5a3b"
+          }
+        },
         {
           "version": "0.3.0",
           "publishTimestamp": 1793968089,
