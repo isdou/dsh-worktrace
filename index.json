@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Worktrace Plugins",
+    "zh": "Worktrace 插件索引"
+  },
+  "description": {
+    "en": "Published Worktrace releases for DeepSeek Harness. Community plugin by isdou.",
+    "zh": "isdou 发布的 Worktrace 职业证据工作台版本。社区插件。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率工具"
+        }
+      }
+    },
+    "labels": {
+      "career": {
+        "title": {
+          "en": "Career",
+          "zh": "求职"
+        }
+      },
+      "local-first": {
+        "title": {
+          "en": "Local-first",
+          "zh": "本地优先"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-worktrace",
+      "title": {
+        "en": "Worktrace · Career Evidence Workspace",
+        "zh": "Worktrace · 职业证据工作台"
+      },
+      "description": {
+        "zh": "macOS 14+ Apple 芯片：原版画布、本机 AI、编译核心与 Word/PDF 导出。资料不交给聊天模型。",
+        "en": "macOS 14+ Apple Silicon: original canvas, local AI, compiled native core, Word/PDF export. No workspace tools exposed to chat models."
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNDAgNDAiIGZpbGw9Im5vbmUiPjxyZWN0IHg9Ii43NSIgeT0iLjc1IiB3aWR0aD0iMzguNSIgaGVpZ2h0PSIzOC41IiByeD0iMTEuNSIgZmlsbD0iIzE3MTcxNyIgc3Ryb2tlPSIjNDQ0IiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik05LjI1IDExLjUgMTQuMSAyOC44IDIwIDE2LjlsNS45IDExLjkgNC44NS0xNy4zIiBzdHJva2U9IiNmYWZhZmEiIHN0cm9rZS13aWR0aD0iMi41NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PGNpcmNsZSBjeD0iOS4yNSIgY3k9IjExLjUiIHI9IjIuMTUiIGZpbGw9IiNmYWZhZmEiLz48Y2lyY2xlIGN4PSIzMC43NSIgY3k9IjExLjUiIHI9IjIuMTUiIGZpbGw9IiNmYWZhZmEiLz48L3N2Zz4K",
+      "author": "isdou",
+      "homepage": "https://github.com/isdou/dsh-worktrace#readme",
+      "repository": {
+        "url": "https://github.com/isdou/dsh-worktrace"
+      },
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "career",
+          "local-first"
+        ],
+        "keywords": [
+          "resume",
+          "career",
+          "求职",
+          "简历",
+          "经历",
+          "岗位",
+          "Worktrace"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1793968089,
+          "engines": {
+            "dsh": "0.2.2-rc.1"
+          },
+          "source": {
+            "type": "git",
+            "url": "https://github.com/isdou/dsh-worktrace",
+            "commit": "5697ec39fc85ac0f9353528061859b8fc537d92b"
+          }
+        }
+      ]
+    }
+  ]
+}
