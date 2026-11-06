@@ -1,6 +1,6 @@
 {
   "name": "dsh-worktrace",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Worktrace 本机求职工作台：原版画布、本地 AI 与原生编译核心",
   "type": "module",
   "main": "lib/host.js",
